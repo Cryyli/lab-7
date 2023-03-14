@@ -1,38 +1,168 @@
-.App {
+body {
+  background-color: #111010;
+}
+
+/* Fonts */
+a {
+  text-decoration: none;
+  font-family: 'Roboto Mono', monospace;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 24px;
+  color: #E2E000;
+}
+
+h1 {
+  font-family: 'Press Start 2P', cursive;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 40px;
+  color: #111010;
+}
+
+h2 {
+  font-family: 'Press Start 2P', cursive;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 32px;
+  line-height: 32px;
+  color: #E2E000;
+}
+
+h3 {
+  font-family: 'Press Start 2P', cursive;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 24px;
+  color: #E2E000;
+}
+
+h4 {
+  font-family: 'Roboto Mono', monospace;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 32px;
+  color: #E2E000;
+}
+
+p {
+  font-family: 'Roboto Mono', monospace;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 24px;
+  color: #E2E000;
+}
+
+li {
+  font-family: 'Roboto Mono', monospace;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 24px;
+  color: #E2E000;
+}
+
+/* navigation */
+.site-header-right {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+.site-header-left {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.site-header {
+  display: flex;
+  flex-direction: row;
+  gap: 24px;
+  padding: 32px;
+}
+
+/* homepage */
+.background-image {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  height: 922px;
+  padding: 0 35%;
+  background-size: cover;
+  background-position: center;
+}
+
+.title-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  width: 1300px;
+  height: 122px;
+  background-color: #E2E000;
+}
+
+.subheader {
+  padding: 32px;
+}
+
+.card-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  padding: 5%;
+}
+
+.card-box {
+  display: flex;
+  flex-direction: column;
+  border: solid 2px #E2E000;
+  align-items: center;
+  max-width: 400px;
+  height: 680px;
+  padding: 24px;
+}
+
+.card-box-image {
+  padding: 24px;
+}
+
+.card-box-description {
+  height: 40%;
+  width:80%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+/* subpages */
+.container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.box {
+  padding: 75px 115px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.box-description {
   display: flex;
   flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  align-items: baseline;
+  text-align: left;
+  padding-right: 115px;
 }
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+/* footer */
+.text-center {
+  text-align: center;
 }
