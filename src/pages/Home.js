@@ -1,4 +1,5 @@
 import React from 'react';
+import { NavLink } from 'react-router-dom';
 import background from './images/Background.jpg';
 
 class Home extends React.Component {
@@ -22,7 +23,7 @@ class Home extends React.Component {
                 <h2>Select Your Character:</h2>
             </div>
             <div class="card-container">
-                <a href="snowboarder.html">
+                <NavLink to="/snowboarder">
                     <div class="card-box">
                         <div class="card-box-image">
                             <img src="images/Snowboarder-1.png" alt="Crystal at Snow Summit" width= {'350px'} height= {'350px'}/>
@@ -34,9 +35,9 @@ class Home extends React.Component {
                             </h4>
                         </div>
                     </div>
-                </a>
+                </NavLink>
 
-                <a href="procreate-artist.html">
+                <NavLink to="/artist">
                     <div class="card-box">
                         <div class="card-box-image">
                             <img src="images/Procreate-1.png" alt="Screenshot of createdbycry Instagram" width= {'350px'} height= {'350px'}/>
@@ -48,9 +49,9 @@ class Home extends React.Component {
                             </h4>
                         </div>
                     </div>
-                </a>
+                </NavLink>
                 
-                <a href="golfer.html">
+                <NavLink to="/golfer">
                     <div class="card-box">
                         <div class="card-box-image">
                             <img src="images/Golfer-1.png" alt="Crystal golfing at Aroma Golf Range" width= {'350px'} height= {'350px'}/>
@@ -62,7 +63,7 @@ class Home extends React.Component {
                             </h4>
                         </div>
                     </div>
-                </a>
+                </NavLink>
             </div>
         </div>
 	</main>
